@@ -24,6 +24,25 @@ body {
     font-size: 60px;
 }
 
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    animation: pulse 2s infinite;
+}
+
 .destaque {
     background-color: #f4e1d2;
     padding: 40px;
