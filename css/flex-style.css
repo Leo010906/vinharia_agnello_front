@@ -1,3 +1,4 @@
+/* Importando fonte do google para o logo */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 * {
@@ -6,24 +7,32 @@
     box-sizing: border-box;
 }
 
+/* Estilo geral do corpo */
 body {
     font-family: Arial, sans-serif;
     background-color: #fffaf5;
     color: #333;
 }
 
+/* Cabeçalho com Flexbox */
 .header {
     background-color: #7a0d0d;
     color: white;
-    text-align: center;
-    padding: 30px 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.header h1 {
+/* Logo com animação pulsante */
+.logo {
     font-family: 'Great Vibes', cursive;
-    font-size: 60px;
+    font-size: 50px;
+    animation: pulse 2s infinite;
 }
 
+/* Animação no logo */
 @keyframes pulse {
     0% {
         transform: scale(1);
@@ -36,26 +45,23 @@ body {
     }
 }
 
-.logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 60px;
-    letter-spacing: 2px;
-    animation: pulse 2s infinite;
-}
-
+/* Seção de destaque */
 .destaque {
     background-color: #f4e1d2;
     padding: 40px;
     text-align: center;
 }
 
+/* Container com Flexbox */
 .cards {
     display: flex;
     justify-content: center;
     gap: 20px;
     padding: 40px;
+    flex-wrap: wrap;
 }
 
+/* Estilo dos cards */
 .card {
     background-color: white;
     border-radius: 10px;
@@ -66,6 +72,7 @@ body {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
+/* Imagem dentro do card */
 .card img {
     width: 100%;
     height: auto;
@@ -74,15 +81,36 @@ body {
     margin-bottom: 10px;
 }
 
+/* Aplicando hover nos cards */
 .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) rotate(1deg);
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
 
+/* Rodapé */
 .footer {
     background-color: #7a0d0d;
     color: white;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+}
+
+/* Deixando resposivo */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
 }
