@@ -1,7 +1,7 @@
 # Vinharia Agnello - Checkpoint 03
 
 ## 📝 Descrição
-Projeto desenvolvido para o Checkpoint 03 da disciplina de Desenvolvimento Web. O objetivo é criar uma página web utilizando **Flexbox** para o layout, além de aplicar **pseudo-classes** e **transformações CSS** para melhorar a interatividade e o visual do site.
+Projeto desenvolvido para o Checkpoint 03 da disciplina de Front-End Design. O objetivo é criar uma página web utilizando **Flexbox** para o layout, além de aplicar **pseudo-classes** e **transformações CSS** para melhorar a interatividade e o visual do site.
 
 ## 🔧 Recursos aplicados
 - Layout responsivo com **Flexbox**
