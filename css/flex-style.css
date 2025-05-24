@@ -30,6 +30,7 @@ body {
     font-family: 'Great Vibes', cursive;
     font-size: 50px;
     animation: pulse 2s infinite;
+    text-align: center;
 }
 
 /* Animação no logo */
