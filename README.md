@@ -5,13 +5,13 @@ Projeto desenvolvido para o Checkpoint 03 da disciplina de Desenvolvimento Web. 
 
 ## 🔧 Recursos aplicados
 - Layout responsivo com **Flexbox**
-- Efeitos interativos usando **pseudo-classes** como `:hover`
-- Transformações CSS como `scale` e `box-shadow` nos cards
+- Efeitos interativos usando **pseudo-classes** como :hover
+- Transformações CSS como scale e box-shadow nos cards
 - Estrutura de projeto organizada com CSS externo
 
 ## 👨‍💻 Desenvolvedor
 - Leandro Simoneli da Silva
 
 ## 🔗 Links
-- [Repositório no GitHub](https://github.com/Leo010906/checkpoint03-flexbox)
-- [Site publicado no GitHub Pages](https://Leo010906.github.io/checkpoint03-flexbox/)
+- [Repositório no GitHub](https://github.com/Leo010906/vinharia_agnello_front.git)
+- [Site publicado no GitHub Pages](https://leo010906.github.io/vinharia_agnello_front/)
