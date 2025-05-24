@@ -1,18 +1,15 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Layout */
 body {
     font-family: Arial, sans-serif;
     background-color: #fffaf5;
     color: #333;
 }
 
-/* Header */
 .header {
     background-color: #7a0d0d;
     color: white;
@@ -29,19 +26,17 @@ body {
     transition: color 0.3s;
 }
 
-/* Pseudo-classe com efeito */
 .menu a:hover {
     color: #ffd700;
 }
 
-/* Destaque */
+
 .destaque {
     background-color: #f4e1d2;
     padding: 40px;
     text-align: center;
 }
 
-/* Cards */
 .cards {
     display: flex;
     justify-content: center;
@@ -59,13 +54,19 @@ body {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-/* Transformação com hover */
+.card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
 
-/* Footer */
 .footer {
     background-color: #7a0d0d;
     color: white;
